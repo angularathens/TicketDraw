@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #1976d2;
+}
+
+.content {
+  margin: 20px auto;
+  width: 60vw;
+  padding: 50px 30px;
+  background: #fff;
+ border-radius: 2px;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+button {
+  height: 60px;
+  font-size: 32px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+button:hover {
+  background-color: rgb(212, 212, 212);
+  color: white;
+}
+
+.winners {
+  margin-top: 30px;
+}
+
+.winner {
+  margin: 15px auto;
+  border: 2px solid rgb(133, 97, 97);
+  border-radius: 10px;
+  width: 300px;
+  font-size: 30px;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
