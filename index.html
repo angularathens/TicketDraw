@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>AngularAthens Ticket Draw</title>
+    <meta name="description" content="AngularAthens Ticket Draw">
+    <meta name="author" content="AngularAthens">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="content">
+    <h1>AngularAthens ticket draw!</h1>
+    <h2>The two winners win a free ticket for Voxxed Days Athens</h2>
+    <p>Voxxed Athens 2018 will take place on June 1st and 2nd @ DAIS Cultural and Athletic Center , in Athens, Greece.</p>
+    <div class="winners">
+        <button onclick="getName('first')">Get first winner</button>
+        <button onclick="getName('second')">Get second winner</button>
+        <div class="hidden" id="first-div">
+            <p><strong>First winner:</strong></p>
+            <p id="first"></p>
+        </div>
+        <div class="hidden" id="second-div">
+            <p><strong>Second winner:</strong></p>
+            <p id="second"></p>
+        </div>
+    </div>
+    </div>
+    <script src="participants.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
